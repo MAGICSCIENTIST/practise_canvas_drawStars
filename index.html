@@ -1,0 +1,58 @@
+﻿<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>现成demo</title>
+
+  <link href="css/index_style.css" rel="stylesheet" type="text/css">
+  <script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+
+</head>
+<style>
+  #infoPanel {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    background: #3e5b885c;
+    padding: 8px;
+    border-radius: 4px;
+    border: solid 1px #789edc96;
+    color: #cfd1e4;
+
+  }
+</style>
+
+<body>
+
+  <!-----HEADER STAR----->
+
+  
+  <div class="header" id="demo">
+    <canvas id="canvas"></canvas>
+  </div>
+  <div id="infoPanel">
+      <span>你选中了:</span>
+      <span class="id"></span>      
+      <span class="number"></span>
+    </div>
+
+
+  <!-----HEADER END----->
+
+  <!--用来解决视频右键菜单，用于视频上面的遮罩层 START-->
+  <div class="videozz"></div>
+  <!--用来解决视频右键菜单，用于视频上面的遮罩层 END-->
+
+  <!--音乐 START-->
+  <audio controls autoplay class="audio">
+    <source src="css/Music.mp3" type="audio/mp3">
+    <source src="css/Music.ogg" type="audio/ogg">
+    <source src="css/Music.aac" type="audio/mp4">
+  </audio>
+  <!--音乐 END-->
+  <script src="js/panl.js"></script>
+  <script src="js/sky.js"></script>
+</body>
+
+</html>
